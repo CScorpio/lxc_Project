@@ -1,0 +1,1 @@
+java -jar D:\Python3.7\selenium\selenium-server-standalone-3.9.0.jar -role hub
