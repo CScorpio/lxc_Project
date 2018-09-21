@@ -1,5 +1,5 @@
 '''
-v4.0功能：可视化
+v4.0功能：可视化两个骰子的结果（直方图）
 '''
 
 import random
@@ -39,6 +39,7 @@ def main():
     plt.xlabel('点数')
     plt.ylabel('概率统计')
     plt.show()
+
 
 
 if __name__ == '__main__':
