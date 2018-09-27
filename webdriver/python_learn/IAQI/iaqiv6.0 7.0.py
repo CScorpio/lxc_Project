@@ -1,5 +1,6 @@
 '''
-6.0功能：beautifulsoup4,输出所有城市的aqi值
+6.0功能：beautifulsoup4,通过这个包来获取页面上的aqi的值
+7.0功能：beautifulsoup4升级，通过这个包来获取输出所有城市的aqi值
 '''
 import json
 import csv
