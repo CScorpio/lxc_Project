@@ -5,6 +5,8 @@ import unittest
 import time
 
 class test_Select_Role(unittest.TestCase):
+    #屡屡啊  login和selectrole 写了两个case文件。那么这两个case执行的是单独的case
+    #但实际上，这两个case是一个流程的 所以应该写在一起 假如把这两个case执行的方法，写在一个case中，应该就可以通用driver了
     def setUp(self):
         self.url = 'http://192.168.1.101:7400/faext_s460/index.html'
         driver = webdriver.Firefox()

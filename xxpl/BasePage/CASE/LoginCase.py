@@ -6,6 +6,7 @@ import time
 import requests
 
 class test_Login(unittest.TestCase):
+
     def setUp(self):
         self.url = 'http://192.168.1.101:7400/faext_s460/index.html'
         self.driver = webdriver.Firefox()
@@ -26,8 +27,15 @@ class test_Login(unittest.TestCase):
 
         time.sleep(3)
 
-        select_page_html = self.driver.page_source
+        #select_page_html = self.driver.page_source
         #print(select_page_html)
 
-        return self.driver
+        #return self.driver
+
+    def test_select_role(self, driver=None):
+        sr = SelectRole(driver, self.url)
+        sr.select_functionrole()
+        sr.select_datarole()
+        sr.click_confirm()
+
 

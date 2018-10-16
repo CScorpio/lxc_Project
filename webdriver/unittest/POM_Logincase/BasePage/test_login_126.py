@@ -16,6 +16,7 @@ class test_login_126(unittest.TestCase):
 
 
     def test_user_login_126(self):
+        #我在看这个初始化的方法，接收了driver
         login126 = Login126(self.driver,self.base_url,self.url)   #子类继承父类以后，如果没有明确声明自己的初始化方法的话，会默认执行父类的初始化方法
         login126.open()#子类继承了父类的方法，所以不需要用父类来打开了 直接调用子类里面的就好啦
         time.sleep(2)
