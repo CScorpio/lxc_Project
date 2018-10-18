@@ -85,9 +85,13 @@ class Login(BasePage):
         self.find_element(By.XPATH,"//tr[@data-recordindex='0']/td[3]/div/div/div/div/label[7]").click()
 
     def click_Review_pass_btn(self):
-        ele = self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/DIV/SPAN/DIV/A/SPAN")  #这边会提示TypeError: rect is undefined
-        #ele.click()
-        ActionChains(self.driver).click(ele).perform()
+        ele = self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/DIV[3]/SPAN/DIV/A")
+        print(ele.is_displayed())
+        ele.click()
+
+    def click_Review_success_confirm_btn(self):
+        self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/A/SPAN").click()
+
 
     def click_ex_msg_btn(self):
         self.find_element(By.XPATH, "//tr[@data-recordindex='0']/td[3]/div/div/div/div/label[9]").click()
@@ -121,7 +125,87 @@ class Login(BasePage):
 
     def click_edit_btn(self):
         self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/DIV/SPAN/DIV/A/SPAN").click()
-''
+
+    def click_edit_success_confirm_btn(self):
+        self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/A").click()
+
+
+    #日报配置维护页面
+    def Loading_Menues_xxpl(self):
+        self.find_element(By.XPATH, "//*[@id='moduleDisplay']/ul/li[7]").click()
+
+    def Loading_Menues_mbxx_management(self):
+        a = self.find_element(By.XPATH, "//*[@id='treeview-1024-record-templateInfoMgtId']")
+        ActionChains(self.driver).double_click(a).perform()
+
+    def Loading_Menues_rbpzwh(self):
+        self.find_element(By.XPATH,"//*[@id='treeview-1024-record-dayReportConfMgtId']").click()
+
+    def click_xzpz_btn(self):
+        self.find_element(By.XPATH,"//*[@id='button-1045-btnWrap']").click()
+
+    def input_rbpz_text(self,rbpz_name):
+        #报表配置名称
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[1]/div/div/table[1]/tbody/tr/td[2]/input").send_keys(rbpz_name)
+
+        #产品分类
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[1]/div/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td").click()
+        self.find_element(By.XPATH,"/html/body/div[6]/div/ul/li[2]").click()
+
+        #运作方式
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[2]/div/div/table[1]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"/html/body/div[7]/div/ul/li[2]").click()
+
+        #时间属性
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[2]/div/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"/html/body/div[8]/div/ul/li[2]").click()
+
+        #频度属性
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[3]/div/div/table[1]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"/html/body/div[9]/div/ul/li[2]").click()
+
+        #模板
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[3]/div/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"/html/body/div[10]/div/ul/li[2]").click()
+
+        #是否分级分类
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[4]/div/div/table[1]/tbody/tr/td[2]/div/table/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+
+    def click_rbpz_commit_btn(self):
+        self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/DIV/SPAN/DIV/A").click()
+
+    def get_alert_text(self):
+        ele = self.find_element(By.XPATH,"/html/body/div[12]/div[2]/div/div/div[1]/div/div/div[2]/span/div/table[1]/tbody/tr/td[2]/div")
+        return ele
+
+    def click_confirm_btn(self):
+        self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/A").click()
+
+    def click_close_btn(self):
+        self.find_element(By.XPATH,"HTML/BODY/DIV[4]/DIV/DIV/DIV/DIV/DIV[2]").click()
+
+    #模板维护界面
+    def Loading_Menues_mbwh(self):
+        self.find_element(By.XPATH,"//*[@id='treeview-1024-record-templateMgtId']").click()
+
+    def click_mbwh_new_btn(self):
+        self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV[3]/DIV/DIV[4]/DIV/DIV[2]/DIV/DIV/DIV/DIV/DIV/DIV/DIV/DIV/DIV/A/SPAN").click()
+
+    def input_mbwh_text(self,template_name):
+        #模板名称
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/span/div/fieldset/div/span/div/div[1]/div/div/table/tbody/tr/td[2]/input").send_keys(template_name)
+
+        #模板类型
+        #//*[@id="boundlist-1136-listEl"]/ul
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/span/div/fieldset/div/span/div/div[2]/div/div/table/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"/html/body/div[6]/div/ul/li[2]").click()
+
+    def click_mbwh_new_submit(self):
+        self.find_element(By.XPATH,"HTML/BODY/DIV[4]/DIV[3]/DIV/DIV/DIV/SPAN/DIV/A").click()
+
+
+    
+
 
 
 

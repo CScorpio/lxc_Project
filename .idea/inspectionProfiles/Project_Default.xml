@@ -5,6 +5,7 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="beautifulSoup4" />
+          <option value="xxpl.BasePage.PAGE.LoginPage.BasePage" />
         </list>
       </option>
     </inspection_tool>

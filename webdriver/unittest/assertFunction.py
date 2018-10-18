@@ -14,7 +14,7 @@ class Test(unittest.TestCase):
         except BaseException as msg:
             print("++++++++++++++++++")
             print(msg)
-            print("bababababbababababababababababab~wuwuwuwuwuwuwwu~yei") #哈哈哈哈哈哈
+            print("bababababbababababababababababab~wuwuwuwuwuwuwwu~yei") 
         '''
 
 
