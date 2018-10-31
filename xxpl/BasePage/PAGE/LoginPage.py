@@ -203,7 +203,88 @@ class Login(BasePage):
     def click_mbwh_new_submit(self):
         self.find_element(By.XPATH,"HTML/BODY/DIV[4]/DIV[3]/DIV/DIV/DIV/SPAN/DIV/A").click()
 
+    def click_mbwh_new_success_confirm_btn(self):
+        self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/A").click()
 
+    #选择披露元素
+    def click_xzplys_btn(self):
+        xzplys_btn = self.find_element(By.XPATH,"//*[@id='gridview-1061-body']/tr/td[3]/div/div/div/div/label").click()
+        ActionChains(self.driver).click(xzplys_btn).perform()
+
+    def select_plys(self,element_code):
+        ele = self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/table[1]/tbody/tr/td[2]/input")
+        ele.send_keys(element_code)
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/a").click()
+        ele.clear()
+
+    def click_add_0010_btn(self):
+        self.find_element(By.XPATH,"//*[@data-recordid='c7f5eb04238947dabcbc229da55e15bd']/td[3]/div/div/div/div/label").click()
+
+    def click_add_0002_btn(self):
+        self.find_element(By.XPATH,"//*[@data-recordid='4c6228a3572d457da96239fb0c2d8a67']/td[3]/div/div/div/div/label").click()
+
+    def click_close_plys_btn(self):
+        self.find_element(By.XPATH,"/html/body/div[6]/div[3]/div/div/div/span").click()
+
+    #产品报表元素设置界面
+    def Loading_Menues_cpbb_manegement(self):
+        cpbbgl_ele = self.find_element(By.XPATH, "//*[@id='treeview-1024-record-productReportMgtId']")
+        ActionChains(self.driver).double_click(cpbbgl_ele).perform()
+
+    def Loading_Menues_cpbbyssz(self):
+        self.find_element(By.XPATH,"//*[@id='treeview-1024-record-productReportElementConfId']").click()
+
+    def click_cpbbys_new_btn(self):
+        self.find_element(By.XPATH,"/html/body/div/div/div[3]/div/div[4]/div/div[2]/div/div/div/div/div/div/div/div/div/a/span/span").click()
+
+    def input_cpbbys_text_cp(self,product_code):
+        #点击产品名称的放大镜按钮
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/span/div/fieldset/div/span/div/div[1]/div/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]").click()
+        #输入产品套账号
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div/div/div/div/div[1]/div[2]/div/div/div[1]/div/div/div/table[1]/tbody/tr/td[2]/input").send_keys(product_code)
+        #点击套账号查询
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div/div/div/div/div[1]/div[2]/div/div/div[1]/div/div/div/a").click()
+        #点击添加按钮
+        self.find_element(By.XPATH,"html/body/div[7]/div[2]/div/div/div/div/div/div/div/div/div/div[2]/div/div/div[2]/div[2]/div/table/tbody/tr/td[3]/div/div/div/div/label").click()
+
+    def input_cpbbys_text_bb(self,rbpz_name):
+        #点击报表配置名称的放大镜按钮
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/span/div/fieldset/div/span/div/div[2]/div/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]").click()
+        #输入报表配置名称
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div[1]/div/div/table/tbody/tr/td[2]/input").send_keys(rbpz_name)
+        time.sleep(1)
+        #点击报表配置名称查询
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div[1]/div/div/a/span/span").click()
+        time.sleep(1)
+        #点击数据
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div[2]/div[2]/div/table/tbody/tr/td").click()
+
+
+    def click_cpxz_sumit_btn(self):
+        #点击确认按钮
+        self.find_element(By.XPATH,"//span[text()='确认']/..").click()
+
+    def click_new_submit_btn(self):
+        self.find_element(By.XPATH,"/html/body/div[4]/div[3]/div/div/div/span/div/a").click()
+
+    def click_cpbbyssz_new_success_confirm_btn(self):
+        self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/A").click()
+
+    #日报签名管理界面
+    def Loading_Menues_bbqm_manegement(self):
+        bbqmgl_ele = self.find_element(By.XPATH, "//*[@id='treeview-1024-record-reportSignMgtId']")
+        ActionChains(self.driver).double_click(bbqmgl_ele).perform()
+
+    def Loading_Menues_rbqmgl(self):
+        self.find_element(By.XPATH,"//*[@id='treeview-1024-record-dayReportResultMgtId']").click()
+
+    def click_create_btn(self):
+        self.find_element(By.XPATH,"//span[text()='创建']/..").click()
+
+    def input_create_text(self):
+        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/span/div/fieldset/div/span/div/div/div/div/table[1]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+
+        
     
 
 
