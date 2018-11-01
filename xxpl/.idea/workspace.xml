@@ -20,11 +20,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginPage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginPage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BasePage/PAGE/LoginPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="285" column="8" selection-start-line="285" selection-start-column="8" selection-end-line="285" selection-end-column="8" />
+            <state relative-caret-position="212">
+              <caret line="241" column="52" selection-start-line="241" selection-start-column="52" selection-end-line="241" selection-end-column="52" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="xxplcase.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="xxplcase.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BasePage/CASE/xxplcase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
+            <state relative-caret-position="273">
+              <caret line="163" column="61" lean-forward="true" selection-start-line="163" selection-start-column="61" selection-end-line="163" selection-end-column="61" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -73,6 +73,9 @@
       <find>action</find>
       <find>Action</find>
       <find>HTML/BODY/DIV/DIV/DIV/DIV/A</find>
+      <find>//*[@id='button-1045-btnWrap']</find>
+      <find>/html/body/div[6]/div[3]/div/div/div/span</find>
+      <find>/html/body/div[12]/div[2]/div/div/div[1]/div/div/div[2]/span/div/table[1]/tbody/tr/td[2]/div</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -238,8 +241,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests for xxplcase.test_Login.test_login" />
-        <item itemvalue="Python tests.Unittests in xxplcase.py" />
         <item itemvalue="Python tests.Unittests for xxplcase.test_Login" />
+        <item itemvalue="Python tests.Unittests in xxplcase.py" />
         <item itemvalue="Python.LoginPage" />
         <item itemvalue="Python tests.Unittests for runtest.RunTest" />
       </list>
@@ -259,34 +262,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.10.31 at 10h 49m 05s.xml">
+    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.11.01 at 17h 01m 47s.xml">
       <configuration name="Unittests for xxplcase.test_Login.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_xxplcase_py - 2018.10.31 at 10h 50m 37s.xml">
-      <configuration name="Unittests in xxplcase.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.10.31 at 10h 51m 35s.xml">
+    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.11.01 at 17h 06m 01s.xml">
       <configuration name="Unittests for xxplcase.test_Login.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.10.31 at 14h 31m 11s.xml">
+    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.11.01 at 17h 10m 24s.xml">
       <configuration name="Unittests for xxplcase.test_Login.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.10.31 at 14h 31m 41s.xml">
+    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.11.01 at 17h 11m 41s.xml">
       <configuration name="Unittests for xxplcase.test_Login.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.10.31 at 14h 32m 56s.xml">
+    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.11.01 at 17h 12m 53s.xml">
       <configuration name="Unittests for xxplcase.test_Login.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.10.31 at 14h 34m 09s.xml">
+    <history-entry file="Unittests_for_xxplcase_test_Login - 2018.11.01 at 17h 16m 52s.xml">
+      <configuration name="Unittests for xxplcase.test_Login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_xxplcase_test_Login - 2018.11.01 at 17h 20m 26s.xml">
+      <configuration name="Unittests for xxplcase.test_Login" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.11.01 at 17h 25m 40s.xml">
       <configuration name="Unittests for xxplcase.test_Login.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.10.31 at 14h 34m 30s.xml">
+    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.11.01 at 17h 28m 21s.xml">
       <configuration name="Unittests for xxplcase.test_Login.test_login" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.10.31 at 14h 34m 55s.xml">
-      <configuration name="Unittests for xxplcase.test_Login.test_login" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.10.31 at 14h 36m 22s.xml">
+    <history-entry file="Unittests_for_xxplcase_test_Login_test_login - 2018.11.01 at 17h 30m 59s.xml">
       <configuration name="Unittests for xxplcase.test_Login.test_login" configurationId="tests" />
     </history-entry>
   </component>
@@ -294,13 +297,13 @@
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49865228" visible="true" weight="0.11854584" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4974533" visible="true" weight="0.11854584" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22627737" />
-      <window_info id="Structure" order="1" sideWeight="0.5013477" side_tool="true" visible="true" weight="0.11854584" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38581857" />
+      <window_info id="Structure" order="1" sideWeight="0.50254667" side_tool="true" visible="true" weight="0.11854584" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -506,22 +509,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasePage/CASE/xxplcase.py">
+    <entry file="file://$PROJECT_DIR$/BasePage/PAGE/LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="537">
-          <caret line="159" column="20" selection-start-line="159" selection-start-column="20" selection-end-line="159" selection-end-column="20" />
+        <state relative-caret-position="212">
+          <caret line="241" column="52" selection-start-line="241" selection-start-column="52" selection-end-line="241" selection-end-column="52" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BasePage/PAGE/LoginPage.py">
+    <entry file="file://$PROJECT_DIR$/BasePage/CASE/xxplcase.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="285" column="8" selection-start-line="285" selection-start-column="8" selection-end-line="285" selection-end-column="8" />
+        <state relative-caret-position="273">
+          <caret line="163" column="61" lean-forward="true" selection-start-line="163" selection-start-column="61" selection-end-line="163" selection-end-column="61" />
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>

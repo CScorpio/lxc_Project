@@ -11,6 +11,12 @@ class test_Login(unittest.TestCase):
         self.driver = webdriver.Firefox()
         self.loginpye = Login(self.driver, self.url)
         self.driver.maximize_window()
+        self.produce_code = '00323'
+        self.TA_code = 'TAlxc'
+        self.clgm = 50
+        self.rbpz_name = 'rbpz1101'
+        self.template_name = 'mb1101'
+        self.element_code = '0010'
 
         print('test_Login测试开始')
 
@@ -35,7 +41,7 @@ class test_Login(unittest.TestCase):
         self.loginpye.select_datarole()
         self.loginpye.click_confirm()
 
-        '''
+
         #选择菜单
         self.loginpye.Loading_Menues_yxgl()
         time.sleep(1)
@@ -52,7 +58,7 @@ class test_Login(unittest.TestCase):
         self.loginpye.click_new_btn()
         time.sleep(2)
         #输入必填项
-        self.loginpye.input_new_text('00304')
+        self.loginpye.input_new_text(self.produce_code)
 
         #点击提交按钮
         self.loginpye.click_new_submit()
@@ -68,7 +74,7 @@ class test_Login(unittest.TestCase):
         self.loginpye.click_ex_msg_btn()
 
         #输入必填项
-        self.loginpye.input_ex_msg_text('TA',50)
+        self.loginpye.input_ex_msg_text(self.TA_code,self.clgm)
 
         #点击修改按钮
         self.loginpye.click_edit_btn()
@@ -84,74 +90,88 @@ class test_Login(unittest.TestCase):
         self.loginpye.click_Review_pass_btn()
         time.sleep(1)
         self.loginpye.click_Review_success_confirm_btn()
-        '''
+
+        self.loginpye.click_close_Menues_btn()
+
+        # 打开模板界面
+        self.loginpye.Loading_Menues_xxpl()
+        self.loginpye.Loading_Menues_mbxx_management()
+        time.sleep(1)
+        self.loginpye.Loading_Menues_mbwh()
+        self.loginpye.click_mbwh_new_btn()
+        time.sleep(2)
+        self.loginpye.input_mbwh_text(self.template_name)
+        self.loginpye.click_mbwh_new_submit()
+        time.sleep(1)
+        self.loginpye.click_mbwh_new_success_confirm_btn()
+
+        # 点击选择披露元素按钮
+        self.loginpye.click_xzplys_btn()
+
+        # 选择0010开头的元素
+        self.loginpye.select_plys(self.element_code)
+        self.loginpye.click_add_0010_btn()
+
+        self.element_code = '0002'
+        # 选择0002开头的元素
+        self.loginpye.select_plys(self.element_code)
+        self.loginpye.click_add_0002_btn()
+
+        # 点击关闭
+        self.loginpye.click_close_plys_btn()
+
+        self.loginpye.click_close_Menues_btn()
 
         #打开日报配置维护页面
-        self.loginpye.Loading_Menues_xxpl()
-        # self.loginpye.Loading_Menues_mbxx_management()
-        # time.sleep(1)
-        # self.loginpye.Loading_Menues_rbpzwh()
-        #
-        # #点击新增配置按钮
-        # self.loginpye.click_xzpz_btn()
-        #
-        # #输入日报配置中的文本内容
-        # self.loginpye.input_rbpz_text('1017lxc')
-        #
-        # #点击新增的提交按钮
-        # self.loginpye.click_rbpz_commit_btn()
-        #
+
+
+        self.loginpye.Loading_Menues_rbpzwh()
+
+        #点击新增配置按钮
+        self.loginpye.click_xzpz_btn()
+
+        time.sleep(2)
+        #输入日报配置中的文本内容
+        self.loginpye.input_rbpz_text(self.rbpz_name)
+
+        #点击新增的提交按钮
+        self.loginpye.click_rbpz_commit_btn()
+
         # ele = self.loginpye.get_alert_text()
         # alter_text =ele.text
         # print(alter_text)
         #
         # try:
-        #     self.assertEqual(alter_text,"该日报配置已存在!",msg="日报配置已经存在，不需要再次配置")
+        #      self.assertEqual(alter_text,"该日报配置已存在!",msg="日报配置已经存在，不需要再次配置")
         # except BaseException as msg:
         #     print(msg)
         # else:
         #     self.loginpye.click_confirm_btn()
         #     self.loginpye.click_close_btn()
 
-        # #打开模板界面
-        # self.loginpye.Loading_Menues_mbwh()
-        # self.loginpye.click_mbwh_new_btn()
-        # time.sleep(2)
-        # self.loginpye.input_mbwh_text('1017lxc')
-        # self.loginpye.click_mbwh_new_submit()
-        # time.sleep(1)
-        # self.loginpye.click_mbwh_new_success_confirm_btn()
-        #
-        # #点击选择披露元素按钮
-        # self.loginpye.click_xzplys_btn()
-        #
-        # #选择0010开头的元素
-        # self.loginpye.select_plys('0010')
-        # self.loginpye.click_add_0010_btn()
-        #
-        # #选择0002开头的元素
-        # self.loginpye.select_plys('0002')
-        # self.loginpye.click_add_0002_btn()
-        #
-        # #点击关闭
-        # self.loginpye.click_close_plys_btn()
+        self.loginpye.click_confirm_btn()
+        self.loginpye.click_close_Menues_btn()
 
-        # #打开产品报表元素设置界面
-        # self.loginpye.Loading_Menues_cpbb_manegement()
-        # time.sleep(1)
-        # self.loginpye.Loading_Menues_cpbbyssz()
-        # time.sleep(1)
-        # self.loginpye.click_cpbbys_new_btn()
-        # #输入产品报表元素设置界面的产品名称字段和报表配置字段
-        # self.loginpye.input_cpbbys_text_cp('00318')
-        # self.loginpye.click_cpxz_sumit_btn()
-        #
-        # self.loginpye.input_cpbbys_text_bb('1023rbpz')
-        # self.loginpye.click_cpxz_sumit_btn()
-        # #点击新增按钮
-        # self.loginpye.click_new_submit_btn()
-        # time.sleep(1)
-        # self.loginpye.click_mbwh_new_success_confirm_btn()
+        
+
+        #打开产品报表元素设置界面
+        self.loginpye.Loading_Menues_cpbb_manegement()
+        time.sleep(1)
+        self.loginpye.Loading_Menues_cpbbyssz()
+        time.sleep(1)
+        self.loginpye.click_cpbbys_new_btn()
+        #输入产品报表元素设置界面的产品名称字段和报表配置字段
+        self.loginpye.input_cpbbys_text_cp(self.produce_code)
+        self.loginpye.click_cpxz_sumit_btn()
+
+        self.loginpye.input_cpbbys_text_bb(self.rbpz_name)
+        self.loginpye.click_cpxz_sumit_btn()
+        #点击新增按钮
+        self.loginpye.click_new_submit_btn()
+        time.sleep(1)
+        self.loginpye.click_mbwh_new_success_confirm_btn()
+
+        self.loginpye.click_close_Menues_btn()
 
         #打开日报签名管理界面
         self.loginpye.Loading_Menues_bbqm_manegement()
@@ -160,9 +180,7 @@ class test_Login(unittest.TestCase):
         time.sleep(1)
         self.loginpye.click_create_btn()
 
-
-
-        
+        self.loginpye.input_create_text(self.produce_code)
 
 
 

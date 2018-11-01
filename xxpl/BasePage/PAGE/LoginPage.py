@@ -69,7 +69,7 @@ class Login(BasePage):
 
         #合同成立日
         self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/span/div/fieldset/div/span/div/div[6]/div/div/table[1]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
-        self.find_element(By.XPATH,"//*[@title='2018年10月01日']").click()
+        self.find_element(By.XPATH,"//*[@title='2018年10月31日']").click()
 
         #合同到期日
         self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/span/div/fieldset/div/span/div/div[6]/div/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
@@ -121,7 +121,7 @@ class Login(BasePage):
 
         #合同生效日
         self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/span/div/fieldset[3]/div/span/div/div[1]/div/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
-        self.find_element(By.XPATH,"//*[@title='2018年10月01日']").click()
+        self.find_element(By.XPATH,"//*[@title='2018年10月31日']").click()
 
     def click_edit_btn(self):
         self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/DIV/SPAN/DIV/A/SPAN").click()
@@ -142,34 +142,34 @@ class Login(BasePage):
         self.find_element(By.XPATH,"//*[@id='treeview-1024-record-dayReportConfMgtId']").click()
 
     def click_xzpz_btn(self):
-        self.find_element(By.XPATH,"//*[@id='button-1045-btnWrap']").click()
+        self.find_element(By.XPATH,"//span[text()='新增']").click()
 
     def input_rbpz_text(self,rbpz_name):
         #报表配置名称
-        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[1]/div/div/table[1]/tbody/tr/td[2]/input").send_keys(rbpz_name)
-
+        self.find_element(By.XPATH,"//label[text()='报表配置名称:']/../../td[2]/input").send_keys(rbpz_name)
+        #"/html/body/div[4]/div[2]/div/div/div/div/div/div/div/table[1]/tbody/tr/td[2]/input"
         #产品分类
-        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[1]/div/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td").click()
-        self.find_element(By.XPATH,"/html/body/div[6]/div/ul/li[2]").click()
-
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div[1]/div/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td").click()
+        self.find_element(By.XPATH,"//li[text()='普通型']").click()
+        #"/html/body/div[6]/div/ul/li[2]"
         #运作方式
-        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[2]/div/div/table[1]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
-        self.find_element(By.XPATH,"/html/body/div[7]/div/ul/li[2]").click()
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div[2]/div/div/table[1]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"//li[text()='开放式']").click()
 
         #时间属性
-        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[2]/div/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
-        self.find_element(By.XPATH,"/html/body/div[8]/div/ul/li[2]").click()
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div[2]/div/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"//li[text()='上市前']").click()
 
         #频度属性
-        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[3]/div/div/table[1]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
-        self.find_element(By.XPATH,"/html/body/div[9]/div/ul/li[2]").click()
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div[3]/div/div/table[1]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"//li[text()='最后一日']").click()
 
         #模板
-        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[3]/div/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
-        self.find_element(By.XPATH,"/html/body/div[10]/div/ul/li[2]").click()
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div[3]/div/div/table[2]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"//li[text()='mb1101']").click()
 
         #是否分级分类
-        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/div/div/div[4]/div/div/table[1]/tbody/tr/td[2]/div/table/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div[4]/div/div/table[1]/tbody/tr/td[2]/div/table/tbody/tr/td[2]/table/tbody/tr/td/input").click()
 
     def click_rbpz_commit_btn(self):
         self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/DIV/SPAN/DIV/A").click()
@@ -193,28 +193,28 @@ class Login(BasePage):
 
     def input_mbwh_text(self,template_name):
         #模板名称
-        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/span/div/fieldset/div/span/div/div[1]/div/div/table/tbody/tr/td[2]/input").send_keys(template_name)
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/span/div/fieldset/div/span/div/div[1]/div/div/table/tbody/tr/td[2]/input").send_keys(template_name)
 
         #模板类型
         #//*[@id="boundlist-1136-listEl"]/ul
-        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/span/div/fieldset/div/span/div/div[2]/div/div/table/tbody/tr/td[2]/table/tbody/tr/td/input").click()
-        self.find_element(By.XPATH,"/html/body/div[6]/div/ul/li[2]").click()
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/span/div/fieldset/div/span/div/div[2]/div/div/table/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"//li[text()='临时公告']").click()
 
     def click_mbwh_new_submit(self):
-        self.find_element(By.XPATH,"HTML/BODY/DIV[4]/DIV[3]/DIV/DIV/DIV/SPAN/DIV/A").click()
+        self.find_element(By.XPATH,"HTML/BODY/DIV[7]/DIV[3]/DIV/DIV/DIV/SPAN/DIV/A").click()
 
     def click_mbwh_new_success_confirm_btn(self):
         self.find_element(By.XPATH,"HTML/BODY/DIV/DIV/DIV/DIV/A").click()
 
     #选择披露元素
     def click_xzplys_btn(self):
-        xzplys_btn = self.find_element(By.XPATH,"//*[@id='gridview-1061-body']/tr/td[3]/div/div/div/div/label").click()
+        xzplys_btn = self.find_element(By.XPATH,"//label[text()='选择披露元素']").click()
         ActionChains(self.driver).click(xzplys_btn).perform()
 
     def select_plys(self,element_code):
-        ele = self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/table[1]/tbody/tr/td[2]/input")
+        ele = self.find_element(By.XPATH,"//label[text()='元素编号:']/../../td[2]/input")
         ele.send_keys(element_code)
-        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div[2]/div[2]/div/div/div[1]/div/div/div/a").click()
+        self.find_element(By.XPATH,"//label[text()='元素编号:']/../../../../../a").click()
         ele.clear()
 
     def click_add_0010_btn(self):
@@ -224,7 +224,7 @@ class Login(BasePage):
         self.find_element(By.XPATH,"//*[@data-recordid='4c6228a3572d457da96239fb0c2d8a67']/td[3]/div/div/div/div/label").click()
 
     def click_close_plys_btn(self):
-        self.find_element(By.XPATH,"/html/body/div[6]/div[3]/div/div/div/span").click()
+        self.find_element(By.XPATH,"//span[text()='关闭']/..").click()
 
     #产品报表元素设置界面
     def Loading_Menues_cpbb_manegement(self):
@@ -239,7 +239,7 @@ class Login(BasePage):
 
     def input_cpbbys_text_cp(self,product_code):
         #点击产品名称的放大镜按钮
-        self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/span/div/fieldset/div/span/div/div[1]/div/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]").click()
+        self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/span/div/fieldset/div/span/div/div[1]/div/div/table/tbody/tr/td[2]/table/tbody/tr/td[2]").click()
         #输入产品套账号
         self.find_element(By.XPATH,"/html/body/div[7]/div[2]/div/div/div/div/div/div/div/div/div[1]/div[2]/div/div/div[1]/div/div/div/table[1]/tbody/tr/td[2]/input").send_keys(product_code)
         #点击套账号查询
@@ -281,10 +281,32 @@ class Login(BasePage):
     def click_create_btn(self):
         self.find_element(By.XPATH,"//span[text()='创建']/..").click()
 
-    def input_create_text(self):
+    def input_create_text(self,product_code):
+        #选择日报日期
         self.find_element(By.XPATH,"/html/body/div[4]/div[2]/div/div/span/div/fieldset/div/span/div/div/div/div/table[1]/tbody/tr/td[2]/table/tbody/tr/td/input").click()
+        self.find_element(By.XPATH,"//td[@title='今天']").click()
 
-        
+        #选择产品名称
+        self.find_element(By.XPATH,"//*[@name='productName']/../../td[2]").click()
+
+        self.find_element(By.XPATH,"//*[@name='assetCode']").send_keys(product_code)
+        search_ele = self.find_element(By.XPATH,"/html/body/div[8]/div[2]/div/div/div/div/div/div/div/div/div/div[2]/div/div/div/div/div/div/a/span")
+        ActionChains(self.driver).double_click(search_ele).perform()
+        time.sleep(1)
+        self.find_element(By.XPATH,"//label[text()='添加']").click()
+        self.find_element(By.XPATH,"//span[text()='确认']/..").click()
+        self.find_element(By.XPATH,"//span[text()='确定']/..").click()
+
+    #这是一个点击关闭按钮
+    def click_close_Menues_btn(self):
+        self.find_element(By.XPATH,"//span[@class='x-tab-close-btn']").click()
+
+                                   
+
+
+
+
+
     
 
 
