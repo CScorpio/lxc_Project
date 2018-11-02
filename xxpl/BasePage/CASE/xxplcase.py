@@ -11,12 +11,13 @@ class test_Login(unittest.TestCase):
         self.driver = webdriver.Firefox()
         self.loginpye = Login(self.driver, self.url)
         self.driver.maximize_window()
-        self.produce_code = '00323'
+        self.produce_code = '00326'
         self.TA_code = 'TAlxc'
         self.clgm = 50
         self.rbpz_name = 'rbpz1101'
         self.template_name = 'mb1101'
         self.element_code = '0010'
+        self.send_days = '2'
 
         print('test_Login测试开始')
 
@@ -173,6 +174,19 @@ class test_Login(unittest.TestCase):
 
         self.loginpye.click_close_Menues_btn()
 
+        #打开参数设置界面
+        self.loginpye.Loading_Menues_xpcssz()
+        time.sleep(1)
+        self.loginpye.Loading_Menues_cpcssz()
+        time.sleep(1)
+        self.loginpye.click_new_cpcs_btn()
+        self.loginpye.input_cpcs_text_cp(self.produce_code)
+        self.loginpye.input_cpcs_text_scrq(self.send_days)
+        self.loginpye.click_new_cpcs_submit_btn()
+        self.loginpye.click_new_success_confirm_btn()
+
+        self.loginpye.click_close_Menues_btn()
+
         #打开日报签名管理界面
         self.loginpye.Loading_Menues_bbqm_manegement()
         time.sleep(1)
@@ -181,6 +195,11 @@ class test_Login(unittest.TestCase):
         self.loginpye.click_create_btn()
 
         self.loginpye.input_create_text(self.produce_code)
+        time.sleep(1)
+        self.loginpye.click_creat_submit_btn()
+
+        self.loginpye.click_new_success_confirm_btn() #因为这个按钮是重复的，所以一会改一下
+        
 
 
 
