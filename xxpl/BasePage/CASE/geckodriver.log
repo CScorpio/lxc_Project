@@ -26547,3 +26547,345 @@ JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line
 [Parent 10168, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 5028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
 [Child 5028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10168, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 10168, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5080, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9652, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1541403368386	Marionette	INFO	Stopped listening on port 32038
+[GPU 5956, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+0/faext_s460/login.html
+1541402952124	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/login.html
+1541402955449	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541403138653	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all.js, line 21: unreachable code after return statement
+[Child 6896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6896, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5412, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1541403363060	Marionette	INFO	Stopped listening on port 45252
+[GPU 8588, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+41403181744	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/login.html
+1541403181968	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/login.html
+1541403185268	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541403243165	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all.js, line 21: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all.js, line 21: unreachable code after return statement
+[Parent 4672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 4672, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 6860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1541403282512	Marionette	INFO	Stopped listening on port 45325
+[GPU 4940, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1541403361657	geckodriver	INFO	geckodriver 0.21.0
+1541403361667	geckodriver	INFO	Listening on 127.0.0.1:45388
+1541403364698	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lixc\\AppData\\Local\\Temp\\rust_mozprofile.QsUTlgNjZNaX"
+1541403367526	Marionette	INFO	Listening on port 45396
+1541403367917	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541403367964	Marionette	DEBUG	[6442450945] Frame script loaded
+1541403367970	Marionette	DEBUG	[6442450945] Frame script registered
+1541403368085	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1541403368358	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all.js, line 21: unreachable code after return statement
+1541403368667	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/login.html
+1541403368796	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/login.html
+1541403372096	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 5228, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 4856, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 7512, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1541403380786	Marionette	INFO	Stopped listening on port 45396
+[GPU 10136, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1541403477609	geckodriver	INFO	geckodriver 0.21.0
+1541403477609	geckodriver	INFO	Listening on 127.0.0.1:45436
+1541403480644	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lixc\\AppData\\Local\\Temp\\rust_mozprofile.eWyil0aV5sXN"
+1541403483405	Marionette	INFO	Listening on port 45444
+1541403483865	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541403483899	Marionette	DEBUG	[6442450945] Frame script loaded
+1541403483906	Marionette	DEBUG	[6442450945] Frame script registered
+1541403483975	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1541403484045	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all.js, line 21: unreachable code after return statement
+1541403484342	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/login.html
+1541403484455	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/login.html
+1541403487750	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541403584575	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: error
+1541403608934	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 9844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9844, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7108, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1541403728544	Marionette	INFO	Stopped listening on port 45444
+[GPU 9112, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+
+1541403680211	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Child 7920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7920, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7928, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5836, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9184, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1541403726707	Marionette	INFO	Stopped listening on port 45534
+[GPU 5036, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1541403730205	geckodriver	INFO	geckodriver 0.21.0
+1541403730215	geckodriver	INFO	Listening on 127.0.0.1:45566
+1541403733239	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lixc\\AppData\\Local\\Temp\\rust_mozprofile.DGPAnWIYS134"
+1541403735781	Marionette	INFO	Listening on port 45574
+1541403735954	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541403735975	Marionette	DEBUG	[6442450945] Frame script loaded
+1541403735980	Marionette	DEBUG	[6442450945] Frame script registered
+1541403736065	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1541403736164	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all.js, line 21: unreachable code after return statement
+1541403736414	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/login.html
+1541403736548	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/login.html
+1541403739836	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541404203149	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Child 8060, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5304, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1541407024680	Marionette	INFO	Stopped listening on port 45574
+[GPU 3536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+e after return statement
+1541403774007	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/login.html
+1541403774634	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/login.html
+1541403777949	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541404203199	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[Parent 6020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 2504, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7248, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 6020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1541407023850	Marionette	INFO	Stopped listening on port 45621
+[GPU 6612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+tml
+1541403816311	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 92032: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
+1541404204084	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all.js, line 21: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 92032: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 92032: unreachable code after return statement
+2.168.1.101:7400/faext_s460/login.html
+1541403997993	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541404000279	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541404000513	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541404000762	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541404001017	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541404001049	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.1.101:7400/faext_s460/login.html
+1541404001068	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.1.101:7400/faext_s460/login.html
+1541404001069	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.1.101:7400/faext_s460/login.html
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 92032: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
+1541404001430	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/index.html
+1541404001716	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/index.html
+1541404002028	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 322: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 154: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 64: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 29: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 45: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 487: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 224: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 1073: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 20: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 5: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 27: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 25: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1541406966451	geckodriver	INFO	geckodriver 0.21.0
+1541406966458	geckodriver	INFO	Listening on 127.0.0.1:46098
+1541406969493	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lixc\\AppData\\Local\\Temp\\rust_mozprofile.QsK41TogKQxD"
+1541406972062	Marionette	INFO	Listening on port 46106
+1541406972198	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541406972228	Marionette	DEBUG	[6442450945] Frame script loaded
+1541406972229	Marionette	DEBUG	[6442450945] Frame script registered
+1541406972327	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1541406972480	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all.js, line 21: unreachable code after return statement
+1541406972795	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/login.html
+1541406972926	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/login.html
+1541406976215	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541406978498	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541406978732	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541406979000	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541406979225	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541406979250	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.1.101:7400/faext_s460/login.html
+1541406979270	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.1.101:7400/faext_s460/login.html
+1541406979271	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.1.101:7400/faext_s460/login.html
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 92032: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
+1541406979627	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/index.html
+1541406979886	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/index.html
+1541406980238	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 322: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 154: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 64: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 29: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 45: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 487: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 224: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 1073: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 20: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 5: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 27: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 25: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 26: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 10: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 24: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 12: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 72: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 74: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 50: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 88: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 77: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 76: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 77: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 76: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 321: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 123: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 25: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 14: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 28: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 69: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 369: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 97: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 30: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 589: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 39: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 75: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 48: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 35: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 22: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 49: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 15: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 44: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1541407019691	geckodriver	INFO	geckodriver 0.21.0
+1541407019700	geckodriver	INFO	Listening on 127.0.0.1:46144
+1541407022716	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lixc\\AppData\\Local\\Temp\\rust_mozprofile.v7t1GFmBNdUj"
+1541407025899	Marionette	INFO	Listening on port 46152
+1541407025939	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541407025972	Marionette	DEBUG	[6442450945] Frame script loaded
+1541407025978	Marionette	DEBUG	[6442450945] Frame script registered
+1541407026695	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1541407026829	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all.js, line 21: unreachable code after return statement
+1541407027113	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/login.html
+1541407027257	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/login.html
+1541407030551	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541407032830	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541407033060	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541407033321	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541407033550	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541407033583	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.1.101:7400/faext_s460/login.html
+1541407033602	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.1.101:7400/faext_s460/login.html
+1541407033603	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.1.101:7400/faext_s460/login.html
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 92032: unreachable code after return statement
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
+1541407033981	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/index.html
+1541407034236	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/index.html
+1541407034547	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 322: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 154: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 64: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 29: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 45: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 487: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 224: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 1073: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 20: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 5: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 27: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 25: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 26: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 10: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 24: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 12: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 72: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 74: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 50: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 88: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 77: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 76: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 77: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 76: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 321: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 123: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 25: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 14: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 28: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 69: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 369: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 97: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 30: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 589: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 39: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 75: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 48: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 35: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 22: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 49: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 15: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 17: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 44: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+1541407038850	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541407039360	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541407041756	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541407042054	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541407042439	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+1541408043448	geckodriver	INFO	geckodriver 0.21.0
+1541408043456	geckodriver	INFO	Listening on 127.0.0.1:46262
+1541408046506	mozrunner::runner	INFO	Running command: "D:\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\lixc\\AppData\\Local\\Temp\\rust_mozprofile.6WZXjvrWhRR1"
+1541408049406	Marionette	INFO	Listening on port 46270
+1541408049739	Marionette	WARN	TLS certificate errors will be ignored for this session
+1541408049772	Marionette	DEBUG	[6442450945] Frame script loaded
+1541408049773	Marionette	DEBUG	[6442450945] Frame script registered
+1541408049868	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for about:blank
+1541408050054	Marionette	DEBUG	[6442450945] Received DOM event pagehide for about:blank
+JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all.js, line 21: unreachable code after return statement
+1541408050338	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/login.html
+1541408050560	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/login.html
+1541408053838	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
+[Parent 2212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 2212, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8768, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 880, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1541408103318	Marionette	INFO	Stopped listening on port 46270
+[GPU 9428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+

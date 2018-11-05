@@ -300,7 +300,26 @@ class Login(BasePage):
     def click_creat_submit_btn(self):
         self.find_element(By.XPATH,"/html/body/div[6]/div[3]/div/div/div/span/div/a/span").click()
 
-    #这是一个点击关闭按钮
+    def click_creat_success_confirm_btn(self):
+        self.find_element(By.XPATH,"html/body/div[5]/div[3]/div/div/a/span").click()
+
+    def click_fetch_data_btn(self):
+        self.find_element(By.XPATH,"//label[@text()='取数']/..").click()
+
+    def click_review_btn(self):
+        self.find_element(By.XPATH,"//label[@text()='复核']/..").click()
+
+    def click_force_sign_btn(self):
+        self.find_element(By.XPATH,"//label[@text()='强制数字签名']/..")
+
+    def click_sign_btn(self):
+        self.find_element(By.XPATH, "//label[@text()='数字签名']/..")
+
+    def click_rbqm_search_btn(self):
+        self.find_element(By.XPATH,"//span[@text()='查询']/..")
+
+
+    #这是一个点击关闭菜单的按钮
     def click_close_Menues_btn(self):
         self.find_element(By.XPATH,"//span[@class='x-tab-close-btn']").click()
 
@@ -331,6 +350,7 @@ class Login(BasePage):
 
     def click_new_success_confirm_btn(self):
         self.find_element(By.XPATH,"html/body/div[5]/div[3]/div/div/a/span").click()
+
 
 
 

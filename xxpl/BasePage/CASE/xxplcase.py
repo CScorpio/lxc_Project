@@ -1,16 +1,17 @@
+from BasePage.PAGE.Page import BasePage
 from BasePage.PAGE.LoginPage import Login
 from selenium import webdriver
 import unittest
 import time
-import requests
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait  #显示等待
+from selenium.webdriver.support import expected_conditions as EC  #设置等待执行语句
+
 
 class test_Login(unittest.TestCase):
 
     def setUp(self):
-        self.url = 'http://192.168.1.101:7400/faext_s460/index.html'
-        self.driver = webdriver.Firefox()
-        self.loginpye = Login(self.driver, self.url)
-        self.driver.maximize_window()
+
         self.produce_code = '00326'
         self.TA_code = 'TAlxc'
         self.clgm = 50
@@ -18,7 +19,14 @@ class test_Login(unittest.TestCase):
         self.template_name = 'mb1101'
         self.element_code = '0010'
         self.send_days = '2'
+        self.remark = 0
 
+        self.url = 'http://192.168.1.101:7400/faext_s460/index.html'
+        self.driver = webdriver.Firefox()
+        self.loginpye = Login(self.driver, self.url)
+        self.driver.maximize_window()
+
+        
         print('test_Login测试开始')
 
     def tearDown(self):
@@ -37,18 +45,52 @@ class test_Login(unittest.TestCase):
 
         time.sleep(2)
 
-        #选择角色
-        self.loginpye.select_functionrole()
-        self.loginpye.select_datarole()
-        self.loginpye.click_confirm()
+        try:
+            WebDriverWait(self.driver,30).until(
+                EC.text_to_be_present_in_element(
+                            (By.XPATH,"//span[@id='roleSelection-1018_header_hd-textEl']"),
+                                             "角色选择1"))
+            print("登录执行完成")
+            self.remark += 1
+        except BaseException:
+            print("连接超时")
+
+        if self.remark == 1:
+
+            #选择角色
+            self.loginpye.select_functionrole()
+            self.loginpye.select_datarole()
+            self.loginpye.click_confirm()
+
+        else:
+            print("登录执行失败，停止流程")
+            return False
 
 
-        #选择菜单
-        self.loginpye.Loading_Menues_yxgl()
-        time.sleep(1)
-        self.loginpye.Loading_Menues_product_management()
-        time.sleep(1)
-        self.loginpye.Loading_Menues_product()
+        a = self.driver.find_element(By.XPATH,"//*[@id='productInfo']/../label[3]").text
+
+        try:
+            WebDriverWait(self.driver,30).until(
+                EC.text_to_be_present_in_element(
+                    (By.XPATH,"/html/body/div[1]/div/div[2]/div/ul/li[1]"),
+                            "首页"))
+            print("角色选择执行完成，当前用户|功能-数据角色为：{}".format(a))
+            self.remark += 1
+        except BaseException:
+            print("连接超时")
+
+        if self.remark == 2:
+
+            #选择菜单
+            self.loginpye.Loading_Menues_yxgl()
+            time.sleep(1)
+            self.loginpye.Loading_Menues_product_management()
+            time.sleep(1)
+            self.loginpye.Loading_Menues_product()
+
+        else:
+            print("角色选择执行失败")
+            return False
 
         # select_page_html = self.driver.page_source
         # print(select_page_html)
@@ -198,7 +240,9 @@ class test_Login(unittest.TestCase):
         time.sleep(1)
         self.loginpye.click_creat_submit_btn()
 
-        self.loginpye.click_new_success_confirm_btn() #因为这个按钮是重复的，所以一会改一下
+        self.loginpye.click_creat_success_confirm_btn()
+
+        
         
 
 
