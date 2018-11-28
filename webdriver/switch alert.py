@@ -18,6 +18,9 @@ save_setting.click()
 
 aa=driver.switch_to_alert().text #返回警告框中的文本信息
 print(aa)
-#driver.switch_to_alert().accept() #接受现有警告框
-driver.switch_to_alert().dismiss() #解散现有警告框
+driver.switch_to_alert().accept() #接受现有警告框
+#driver.switch_to_alert().dismiss() #解散现有警告框
 #driver.switch_to_alert().send_keys(keysToSend='sss') #发送文本至警告框
+
+
+

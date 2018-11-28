@@ -4,12 +4,13 @@ from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.common.by import By
 import time
 from selenium.common.exceptions import NoSuchElementException
+from selenium.common.exceptions import TimeoutException
 
 
 driver=webdriver.Firefox()
 driver.get("https://www.baidu.com/")
 
-#显示等待：使webdriver等待某个条件成立时继续执行，否则在达到最大时长时抛出超市异常（TimeoutException）
+#显示等待：使webdriver等待某个条件成立时继续执行，否则在达到最大时长时抛出超时异常（TimeoutException）
 
 '''
 WebDriverWait类是由webDriver提供的等待方法，在设置时间内，默认隔一段时间监测一次当前页面元素是否存在，如果超过设置时间检测不到则抛出异常
@@ -25,10 +26,17 @@ until_not:调用该方法提供的驱动程序作为一个参数，直到返回�
 '''
 
 
-'''
-element=WebDriverWait(driver,5,0.5).until(expected_conditions.presence_of_element_located((By.ID,"kw")))
-element.send_keys("selenium")
-'''
+''''''
+
+try:
+    print(time.ctime())
+    element=WebDriverWait(driver,10,0.5,NoSuchElementException).until(expected_conditions.presence_of_element_located((By.ID,"k")))
+    element.send_keys("selenium")
+except TimeoutException as msg:
+    print(msg)
+finally:
+    print(time.ctime())
+
 '''
 print(time.ctime())
 for i in range(10):
@@ -44,19 +52,26 @@ else:
     print("time out")
 driver.close()
 print(time.ctime())
-
-#隐式等待：通过一定的时长等待页面上某元素加载完成，如果超出了设置的时长元素还没有被加载完成，则抛出NoSuchElementException异常
 '''
-driver.implicitly_wait(10)
-driver.get("https://www.baidu.com/")
 
-try:
-    print(time.ctime())
-    driver.find_element_by_id("kw").send_keys("selenium")
-except NoSuchElementException as a:
-    print(a)
-finally:
-    print(time.ctime())
+# #隐式等待：通过一定的时长等待页面上某元素加载完成，如果超出了设置的时长元素还没有被加载完成，则抛出NoSuchElementException异常
+#
+# driver.implicitly_wait(10)
+# driver.get("https://www.baidu.com/")
+#
+# try:
+#     print(time.ctime())
+#     driver.find_element_by_id("k").send_keys("selenium")
+#     driver.find_element_by_id("s").click()
+# except NoSuchElementException as a:
+#     print(a)
+# finally:
+#     print(time.ctime())
+
+
+
+
+
 
 
 

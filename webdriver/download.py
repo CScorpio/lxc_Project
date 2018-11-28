@@ -16,13 +16,13 @@ driver = webdriver.Firefox()
 
 driver.get("https://pc.weixin.qq.com/")
 
-for i in range(10):
-    print(i)
-    time.sleep(1)
-else:
-    print("sleep end")
+# for i in range(10):
+#     print(i)
+#     time.sleep(1)
+# else:
+#     print("sleep end")
 
-driver.stop_client()
+# driver.stop_client()
 #driver.find_element_by_partial_link_text("下载").click()
 downloadBtn = driver.find_element_by_partial_link_text("下载")
 print (downloadBtn.text)

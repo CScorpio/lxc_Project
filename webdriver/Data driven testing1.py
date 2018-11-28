@@ -4,7 +4,7 @@ from time import sleep
 '''读取txt文件'''
 
 driver=webdriver.Firefox()
-driver.get("http://192.168.1.101:7100/ifsp/login.html")
+driver.get("http://192.168.1.101:7400/faext_s460")
 def login():
     driver.find_element_by_xpath("//input[@id='textfield-1012-inputEl']").send_keys(username)
     sleep(2)
@@ -29,16 +29,18 @@ for l in acountInfo:
     print(password)
     login()
 '''
-#使用readline()读取文件
+
+'''
+#使用readline()读取文件  readline()只读一行，
 file = open('test data.txt')
 lines=file.readline()
 file.close()
 
 acountinfo=lines.split('\n')
-print(acountinfo)
-print(acountinfo[0])
+print(acountinfo)  #打印的结果是 ['root,111111', '']
+print(acountinfo[0])  #打印的结果是 root,111111
 acountinfo1 = acountinfo[0].split(',')
-print(acountinfo1)
+print(acountinfo1)  #打印的结果是['root', '111111']
 
 username = acountinfo1[0]
 print(username)
@@ -58,11 +60,11 @@ file.close()
 for l in lines:
     print("l is ",l)
     
-    #循环里面的l是单个字母 所以即使你split也不行 尴尬了 只输出了一行 我在试一下好啦 
+    
     username = l.split(',')[0]
     print (username)
     password = l.split(',')[1]
     print(password)
     login()
-'''
+
 

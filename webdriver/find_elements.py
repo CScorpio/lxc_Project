@@ -16,6 +16,7 @@ for i in input_tag:
 '''
 #input_tag=driver.find_elements_by_xpath("//input[@type='checkbox']")
 input_tag=driver.find_elements_by_css_selector("[type='checkbox']")
+print(input_tag)
 
 for i in input_tag:
     i.click()
@@ -23,4 +24,4 @@ for i in input_tag:
 
 print("type为checkbox的input_tag有"+str(len(input_tag))+"个")
 print("type为checkbox的input_tag有",len(input_tag),"个")
-driver.find_elements_by_css_selector("[type='checkbox']").pop(1).click() #pop()方法用于获取列表中的一个元素，默认为最后一个元素
+driver.find_elements_by_css_selector("[type='checkbox']").pop(3).click() #pop()方法用于获取列表中的一个元素，默认为最后一个元素

@@ -9,6 +9,7 @@ driver =  webdriver.Chrome()
 driver.get("http://www.iqiyi.com/")
 #driver.fullscreen_window()
 driver.get_window_rect()
+
 '''
 元素的8种定位元素的方法：
 find_element_by_id

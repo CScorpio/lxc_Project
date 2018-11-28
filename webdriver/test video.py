@@ -16,7 +16,7 @@ video=driver.find_element_by_xpath("html/body/section/div/video")
 #driver.get_screenshot_as_file("C:\\Users\\lixc\\Desktop\\webdriver\\ll.png")
 
 #返回播放文件地址
-url=driver.execute_script("return arguments[0].currentSrc;",video) #currentSrc 返回档期啊视频/音频的URL
+url=driver.execute_script("return arguments[0].currentSrc;",video) #currentSrc 返回当前视频/音频的URL
 print(url)
 
 #播放视频
@@ -36,7 +36,8 @@ time.sleep(15)
 print("stop")
 driver.execute_script("arguments[0].pause()",video)  #pause视频的暂停
 
-#driver.quit()
+driver.quit()
+
 
 '''
 arguments[] 和 return的使用方式

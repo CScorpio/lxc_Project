@@ -17,7 +17,7 @@ time.sleep(2)
 
 driver.find_element_by_id("TANGRAM__PSP_10__userName").send_keys("亦茉prince")
 driver.find_element_by_id("TANGRAM__PSP_10__password").send_keys("cpk1991121215")
-driver.find_element_by_id("TANGRAM__PSP_10__password").submit();
+driver.find_element_by_id("TANGRAM__PSP_10__password").submit()
 
 #打印当前页面的title
 print(driver.title)

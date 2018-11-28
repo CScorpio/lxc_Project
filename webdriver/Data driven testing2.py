@@ -4,7 +4,8 @@ from time import sleep
 '''读取csv文件'''
 
 driver=webdriver.Firefox()
-driver.get("http://192.168.1.101:7100/ifsp/login.html")
+driver.get("http://192.168.1.101:7400/faext_s460")
+
 def login():
     driver.find_element_by_xpath("//input[@id='textfield-1012-inputEl']").send_keys(username)
     sleep(2)

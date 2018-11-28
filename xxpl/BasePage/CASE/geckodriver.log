@@ -26692,18 +26692,19 @@ JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line
 JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 92032: unreachable code after return statement
 JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
 JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 92032: unreachable code after return statement
-2.168.1.101:7400/faext_s460/login.html
-1541403997993	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-1541404000279	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-1541404000513	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-1541404000762	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-1541404001017	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
-1541404001049	Marionette	DEBUG	[6442450945] Received DOM event beforeunload for http://192.168.1.101:7400/faext_s460/login.html
-1541404001068	Marionette	DEBUG	[6442450945] Received DOM event pagehide for http://192.168.1.101:7400/faext_s460/login.html
-1541404001069	Marionette	DEBUG	[6442450945] Received DOM event unload for http://192.168.1.101:7400/faext_s460/login.html
-JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
-JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 92032: unreachable code after return statement
-JavaScript warning: http://192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
+[Parent 5364, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5040, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7648, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5364, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 8296, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 5364, Gecko_IOThread] WARNING: file z:/build/build/src/ipc/chromium/src/base/process_util_win.cc, line 188
+1541490325138	Marionette	INFO	Stopped listening on port 45661
+[GPU 8488, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+192.168.1.101:7400/faext_s460/js/ext-all-dev.js, line 11494: unreachable code after return statement
 1541404001430	Marionette	DEBUG	[6442450945] Received DOM event DOMContentLoaded for http://192.168.1.101:7400/faext_s460/index.html
 1541404001716	Marionette	DEBUG	[6442450945] Received DOM event pageshow for http://192.168.1.101:7400/faext_s460/index.html
 1541404002028	Marionette	DEBUG	[6442450945] Canceled page load listener because no navigation has been detected
