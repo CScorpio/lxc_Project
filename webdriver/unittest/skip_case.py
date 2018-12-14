@@ -13,13 +13,13 @@ class SkipCase(unittest.TestCase):
     def test_skip_if(self):
         print("if condition is true ,skip this case")
 
-    @unittest.skipUnless(2==1,"除非条件为true时，跳过该条case") #如果条件为真的时候，不挑锅该装饰的测试case
+    @unittest.skipUnless(2==1,"除非条件为true时，跳过该条case") #如果条件为真的时候，不挑过该装饰的测试case
     def test_skip_unless(self):
         print("unless condition is true,skip this case")
 
     @unittest.expectedFailure #测试标记失败，不管执行结果是否失败，统一标记为失败
     def test_except_failure(self):
-        self.assertEqual(2,1)
+        self.assertEqual(1,1)
 
 if __name__ == "__main":
     unittest.main()

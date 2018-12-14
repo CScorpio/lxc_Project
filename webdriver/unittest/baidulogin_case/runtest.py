@@ -43,6 +43,7 @@ if __name__ == '__main__'：
     runner.run(suite)
     
 第三种方式：使用discover()方法，找到要测试的文件
+
 test_dir='./'
 discover_case = unittest.defaultTestLoader.discover(test_dir,pattern='test*.py')
 

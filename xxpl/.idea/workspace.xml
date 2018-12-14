@@ -23,8 +23,8 @@
       <file leaf-file-name="LoginPage.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BasePage/PAGE/LoginPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="3" selection-end-column="11" />
+            <state relative-caret-position="525">
+              <caret line="25" column="80" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="80" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -105,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1588" />
     <option name="y" value="-12" />
     <option name="width" value="1936" />
@@ -304,7 +304,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49635038" visible="true" weight="0.11854584" />
@@ -633,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BasePage/PAGE/LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="11" />
+        <state relative-caret-position="525">
+          <caret line="25" column="80" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="80" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>

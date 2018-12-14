@@ -14,6 +14,8 @@ print(root.nodeValue)   #输出节点的值，这个nodeName只对文本节点�
 print(root.nodeType)    #为节点的类型
 print(root.ELEMENT_NODE)  #我也不知道是啥？？？
 
+print("=========================")
+
 #获得任意标签名
 tagname = root.getElementsByTagName('browser')
 print(tagname)
@@ -28,7 +30,7 @@ print("=========================")
 tagname1 = root.getElementsByTagName('province') #获取province标签中的第三个标签
 print(tagname1[2])
 print(tagname1[2].tagName)
-
+print("=========================")
 #获得标签的属性值
 print(tagname0[0].getAttribute('username'))  #getAttribute()方法用于获取元素的属性值
 print(tagname0[1].getAttribute('password'))
